@@ -80,18 +80,27 @@ body {
 
 .sec-movie{
     border: 0.4rem solid black;
-    display: flex;
+    display: block;
     padding: 0.5rem;
     margin: 1rem;
 }
 
 .info-movie{
-    padding: 1rem 2rem;
-    margin: 5rem 3rem;
+    position: static;
     max-width: fit-content;
+    padding: 1rem 1rem;
+    
     border: 0.1rem solid black;
     background-color: black;
     color: white;
+}
+
+.img-info{
+    display: flex;
+}
+
+.img-movie{
+    padding: 0.5rem 2rem 0rem 0rem;
 }
 
 /**footer**/
