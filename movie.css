@@ -5,12 +5,12 @@
     --primary-color:#EC4899;
     --background-color: #A78BFA;
     --shadow-color: #9D174D;
-    --hover-color:#111827;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    background-color: #EDE9FE;
 }
 
 /** container **/
@@ -82,6 +82,13 @@ body {
     display: flex;
     padding: 0.5rem;
     margin: 1rem;
+}
+
+.info-movie{
+    box-sizing: content-box;
+    align-content: center;
+    padding: 4rem 5rem;
+
 }
 
 span{
