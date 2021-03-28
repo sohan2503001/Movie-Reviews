@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+:root {
+    --secondary-color: #6EE7B7;
+    --primary-color:#EC4899;
+    --background-color: #A78BFA;
+    --shadow-color: #9D174D;
+    --hover-color:black;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-color: #EDE9FE;
+}
+
+/** container **/
+.container {
+    padding: 0rem 1rem;
+}
+
+/**Navigation **/
+
+.navigation {
+    background-color: var(--background-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .nav-mov {
+    text-align: center;
+}
+
+/**list**/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 2rem;
+}
+
+/** links **/
+.link {
+    text-decoration: none;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 600;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+
+.link-primary:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+
+.link-secondary{
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1em 1.5em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-secondary:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+/**section **/
+
+.sec-movie{
+    background-color: #FECACA;
+    width: 500px;
+    border: 0.2rem solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.3rem 22rem;
+}
+
+.info-movie{
+    position: relative;
+    max-width: fit-content;
+    padding: 0.5rem 1.5rem;
+    margin: 2rem;
+    border: 0.1rem solid black;
+    background-color: black;
+    color: white;
+}
+
+.img-info{
+    display: flex;
+}
+
+.img-movie{
+    padding: 0.5rem 2rem 0rem 0rem;
+}
+
+.movie-name{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+/**footer**/
+.footer{
+    background-color: var(--background-color);
+    color: white;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer-h2{
+    text-align: center;
+}
+

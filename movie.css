@@ -79,17 +79,19 @@ body {
 /**section **/
 
 .sec-movie{
-    border: 0.4rem solid black;
-    display: block;
+    background-color: #FECACA;
+    width: 500px;
+    border: 0.2rem solid black;
+    border-radius: 5px;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.3rem 22rem;
 }
 
 .info-movie{
-    position: static;
+    position: relative;
     max-width: fit-content;
-    padding: 1rem 1rem;
-    
+    padding: 0.5rem 1.5rem;
+    margin: 2rem;
     border: 0.1rem solid black;
     background-color: black;
     color: white;
@@ -101,6 +103,19 @@ body {
 
 .img-movie{
     padding: 0.5rem 2rem 0rem 0rem;
+}
+
+.movie-name{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
 }
 
 /**footer**/
