@@ -5,6 +5,7 @@
     --primary-color:#EC4899;
     --background-color: #A78BFA;
     --shadow-color: #9D174D;
+    --hover-color:black;
 }
 
 body {
@@ -85,16 +86,12 @@ body {
 }
 
 .info-movie{
-    box-sizing: content-box;
-    align-content: center;
-    padding: 4rem 5rem;
-
-}
-
-span{
-    color: var(--shadow-color);
-    font-weight: bolder;
-    padding: 5rem;
+    padding: 1rem 2rem;
+    margin: 5rem 3rem;
+    max-width: fit-content;
+    border: 0.1rem solid black;
+    background-color: black;
+    color: white;
 }
 
 /**footer**/
