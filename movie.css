@@ -25,6 +25,10 @@ body {
     background-color: var(--background-color);
     color: white;
     padding: 1rem;
+    margin-left: 5rem;
+    position: relative;
+    width: 85%;
+    align-items: center;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
