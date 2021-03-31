@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     background-color: #EDE9FE;
+    width: 100%;
 }
 
 /** container **/
@@ -89,6 +90,7 @@ body {
     border-radius: 5px;
     padding: 0.5rem;
     margin: 0.3rem 22rem;
+    position: relative;
 }
 
 .info-movie{
