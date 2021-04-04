@@ -64,6 +64,7 @@ body {
     color: white;
     font-weight: 600;
     text-decoration: none;
+    border-radius: 0.5em;
 }
 
 .link-primary:hover {
@@ -71,12 +72,12 @@ body {
     cursor: pointer;
 }
 
-
 .link-secondary{
     background-color: var(--secondary-color);
     color: white;
     font-weight: 600;
     text-decoration: none;
+    border-radius: 0.5em;
 }
 
 .link-secondary:hover {
