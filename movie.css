@@ -14,6 +14,7 @@ body {
     background-color: #EDE9FE;
     width: 100%;
     max-width: 800px;
+    min-width: 200px;
     background-image: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fHBvcnRmb2xpb3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=1000&q=60");
 }
 
@@ -38,6 +39,7 @@ body {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-sizing: border-box;
+    min-width: 100px;
 }
 
 .navigation .nav-mov {
