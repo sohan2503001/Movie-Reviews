@@ -20,10 +20,12 @@ body {
 /** container **/
 .container {
     padding: 0rem 1rem;
+    margin: 0px;
+    min-width: 500px;
 }
 
 .container-center{
-    max-width: 700px;
+    width:100%;
     margin: auto;
 }
 
@@ -40,17 +42,20 @@ body {
 
 .navigation .nav-mov {
     text-align: center;
+    position: relative;
 }
 
 /**list**/
 
 .list-non-bullet {
     list-style: none;
+    position: relative;
 }
 
 .list-item-inline {
     display: inline;
     padding: 0rem 1rem;
+    position: relative;
 }
 
 /** links **/
@@ -91,21 +96,20 @@ body {
 .sec-movie{
     position: relative;
     background-image: linear-gradient(to bottom, #DDD6FE, #FBCFE8);
-    width: 550px;
+    width: 70%;
     border: 0.2rem solid white;
     border-radius: 9px;
-    padding: auto;
-    margin: auto;
-    box-sizing: border-box;
+    margin: 10%;
 }
 
 .info-movie{
-    padding: 0.5rem 1rem;
-    margin: 1rem;
+    position: relative;
+    padding: auto;
+    margin: auto;
     border: 0.1rem solid black;
     background-color: black;
     color: white;
-    width: 300px;
+    min-width: 100px;
 }
 
 .flex-info{
@@ -113,7 +117,7 @@ body {
 } 
 
 .img-movie{
-    padding: 0.5rem 2rem 0rem 0rem;
+    padding: auto;
 }
 
 .movie-name{
@@ -139,6 +143,7 @@ a:hover{
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    position: relative;
 }
 
 .footer-h2{
