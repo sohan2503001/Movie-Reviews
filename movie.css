@@ -95,15 +95,6 @@ body {
 
 /**section **/
 
-.sec-movie{
-    
-    background-image: linear-gradient(to bottom, #DDD6FE, #FBCFE8);
-    width: 70%;
-    border: 0.2rem solid white;
-    border-radius: 9px;
-    margin: 5%;
-}
-
 .combine-flex{
     border: 1px solid black;
     display: flex;
@@ -121,7 +112,8 @@ body {
     border: 0.1rem solid black;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 .flex-info{
@@ -141,11 +133,12 @@ body {
 
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:hover{
     color: red;
+    font-weight: bolder;
 }
 
 /**footer**/
