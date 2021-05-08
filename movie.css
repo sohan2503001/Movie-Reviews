@@ -96,7 +96,7 @@ body {
 /**section **/
 
 .sec-movie{
-    position: relative;
+    
     background-image: linear-gradient(to bottom, #DDD6FE, #FBCFE8);
     width: 70%;
     border: 0.2rem solid white;
@@ -104,14 +104,24 @@ body {
     margin: 5%;
 }
 
+.combine-flex{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    border: 0.2rem solid black;
+    background-image: linear-gradient(to bottom, #DDD6FE, #FBCFE8);
+    margin-top: 10px;
+}
+
 .info-movie{
-    position: relative;
     padding: auto;
     margin: auto;
     border: 0.1rem solid black;
-    background-color: black;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     color: white;
-    min-width: 100px;
 }
 
 .flex-info{
