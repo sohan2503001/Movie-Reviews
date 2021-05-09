@@ -104,6 +104,8 @@ body {
     border: 0.2rem solid black;
     background-image: linear-gradient(to bottom, #DDD6FE, #FBCFE8);
     margin-top: 10px;
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 .info-movie{
@@ -129,6 +131,7 @@ body {
     background-color: #9D174D;
     color: white;
     font-size: 15px;
+    font-weight: bolder;
 }
 
 a{
